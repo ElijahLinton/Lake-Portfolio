@@ -1,7 +1,17 @@
+*{display:flex;
+ flex-direction: column;
+ justify-content: space-between;
+  flex-shrink:1;
+    flex-grow:0;
+ flex-basis:auto;
+ flex-wrap:nowrap;
+ }
+ 
 @font-face { 
     font-family: Grace;
     src: url(../grace.ttf); 
     }
+
 header{
     border-radius:25px;
     background-color:rgb(161, 190, 165);
@@ -13,43 +23,43 @@ header{
     margin-left:auto;
     margin-right:auto;
     justify-content:space-around;
-    
+   
 }
+
 /*background image used was teken by me in 2019*/
+
 body{
 background-image:url("mypictures.jpg" );
-background-repeat:none;
-background-size:cover;
-flex-flow:column;
 align-items: center;
 font-size: larger;
 
 }
+
 h1,h3,a,p{font-family:Grace;}
 
 #section1{
-    background-color:rgb(153, 193, 196);
-    padding:50px;
-    padding-bottom: 20em;
-    margin-left:auto;
-    margin-right:auto; 
+    background-color: rgb(153, 193, 196);
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    width:70.6em;
-    border-radius:50px;
-    margin-top:50px;
+    width: 30.6em;
+    height: 40em;
+    border-radius: 50px;
+    margin: 104px;
     align-items: center;
     }
     
     #section2{
         background-color:rgb(153, 193, 196);
         padding:50px;
-        padding-bottom: 30em;
         margin-left:auto;
         margin-right:auto; 
         text-align: center;
-        width:70.6em;
+        width:30.6em;
         border-radius:50px;
-        margin-top:50px;
+        height:40em;
+        align-items: center;
         }
 
 #profile-picture{
@@ -58,28 +68,24 @@ h1,h3,a,p{font-family:Grace;}
     border-radius:15px 15px 0px 0px;
     margin-bottom: 20px;
     }
-    .container{
+    #container{
     padding:0px 0px;
     background-color:rgb(253, 212, 136);
     border-radius:15px;
     }
 
-.card{
-    height:400px;
-    width:370px;
-    margin-left:auto;
-    margin-right:auto;
+
     
-    }
+   
 
 #card2{height:400px;
-    width:700px;
+    width:300px;
     margin-left:auto;
     margin-right:auto;}
 
 #prework-study-guide{
-    height:600px; 
-    width:700px;
+    height:400px; 
+    width:300px;
     border-radius:15px 15px 0px 0px;
     margin-bottom: 20px;}
 
@@ -87,42 +93,41 @@ h1,h3,a,p{font-family:Grace;}
         background-color:rgb(253, 212, 136);
         border-radius:15px;}
 
-#section3{background-color:rgb(153, 193, 196);
+#section3{ background-color:rgb(153, 193, 196);
     padding:50px;
-    padding-bottom: 25em;
     margin-left:auto;
     margin-right:auto; 
     text-align: center;
-    width:70.6em;
+    width:30.6em;
+    height:40em;
     border-radius:50px;
-    margin-top:50px;}
+    margin-top:50px;
+    align-items: center;}
 
     #container3{padding:0px 0px 50px 0px;
         background-color:rgb(253, 212, 136);
         border-radius:15px;
         width:600px;
-        margin-left:77px}
+        }
 
-    #card3{height:400px;
-        width:700px;
-        margin-left:auto;
-        margin-right:auto;}
+   
 
-#section4{background-color:rgb(153, 193, 196);
+#section4{ background-color:rgb(153, 193, 196);
     padding:50px;
-    padding-bottom: 20em;
     margin-left:auto;
     margin-right:auto; 
     text-align: center;
-    width:70.6em;
+    width:30.6em;
+    height:40em;
     border-radius:50px;
-    margin-top:50px;}
+    margin-top:50px;
+    align-items: center;}
 
 #container4{padding:0px 0px 50px 0px;
     background-color:rgb(253, 212, 136);
     border-radius:15px;
     width:370px;
-    margin-left: -98px;}
+    }
 
 #KU{
     height:400px; 
@@ -130,37 +135,35 @@ h1,h3,a,p{font-family:Grace;}
     border-radius:15px 15px 0px 0px;
     margin-bottom: 20px;}
 
-#card4{height:400px;
-        width:700px;
-        margin-left:auto;
-        margin-right:40px;}
+
         
-#section5{background-color:rgb(153, 193, 196);
+#section5{ background-color:rgb(153, 193, 196);
     padding:50px;
-    padding-bottom: 20em;
     margin-left:auto;
     margin-right:auto; 
     text-align: center;
-    width:70.6em;
+    width:30.6em;
+    height:40em;
     border-radius:50px;
-    margin-top:50px;}
+    margin-top:50px;
+    align-items: center;}
 
 #container5{padding:0px 0px 50px 0px;
     background-color:rgb(253, 212, 136);
     border-radius:15px;
-    width:300px;}
+    width:250px;}
 
-#card5{height:400px;
-    width:300px;
-    margin-left:auto;
-    margin-right:auto;}
+
 
 footer{background-color:rgb(70, 133, 138);
-    padding:50px;
-    padding-bottom: 5em;
+    padding:35px;
     margin-left:auto;
     margin-right:auto; 
     text-align: center;
-    width:70.6em;
+    height:80px;
+    width:50em;
     border-radius:50px;
-    margin-top:50px;}
+    margin:50px;
+    }
+
+html{scroll-behavior: smooth;}
