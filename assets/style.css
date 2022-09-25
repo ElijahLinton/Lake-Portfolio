@@ -28,7 +28,7 @@ header{
     border-radius:25px;
     background-color:rgb(161, 190, 165);
     padding:20px;
-    width:900px;
+    
     height:80px;
     display:inline-flex;
     flex-wrap: nowrap;
@@ -63,11 +63,10 @@ header{
     #section2{
         background-color: rgb(153, 193, 196);
         padding: 7px;
-        height: 22em;
+        height: 25em;
         border-radius: 50px;
         margin-top: 50px;
         margin-bottom: 50px;
-        align-items:flex-start;
         }
 
 
@@ -155,7 +154,6 @@ footer{background-color:rgb(70, 133, 138);
     margin-left:auto;
     margin-right:auto; 
     text-align: center;
-    width:50em;
     border-radius:50px;
     margin:50px;}
 
@@ -172,17 +170,11 @@ html{scroll-behavior: smooth;}
 
 
 @media only screen and (max-width: 841px) {
-    #section1{height:35em;}
-    #section2{height:35em;}
-    #section3{height:45em;}
-    #section4{height:35em;}
-    #section5{height:45em;}
-
-    #container{height:150px}
-    #container2{height:150px}
-    #container3{height:240px}
-    #container4{height:150px}
-    #container5{height:150px}
+    #section1{height:20em;}
+    #section2{height:25em;}
+    #section3{height:25em;}
+    #section4{height:25em;}
+    #section5{height:23em;}
 
     #profile-picture{height:200px;
     }
@@ -194,7 +186,108 @@ html{scroll-behavior: smooth;}
 
     #KU{height:300px;}
    
-    #refactored{height:300px}
-    #from-the-heart{height:350px;} 
-    p{font-size:13px;}
+    #refactored{height:250px}
+    #from-the-heart{height:250px;} 
+    p{font-size:17px;}
+}
+
+
+@media only screen and (max-width: 660px) {
+    nav{font-size: 14px;}
+    h2{font-size:1.2em;
+        text-align: center;}
+    p{text-align: center;}
+    #KU {
+        height: 200px;
+        width: 250px;
+        border-radius: 15px 15px 0px 0px;
+        margin-bottom: 20px;
+    }
+    #from-the-heart {
+        height: 244px;
+        width:182px;
+    }
+}
+
+@media only screen and (max-width: 475px) { 
+#section1{height:22em;}
+#section2{height:27em;}
+#section3{height:29em;}
+#section4{height:23em;}
+#section5{height:29em;}
+
+nav{font-size: 11px;}
+h2{font-size:1.2em;
+    text-align: center;}
+#KU {
+    height:160px ;
+    width:150px ;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 20px;
+}
+#from-the-heart {
+    height: 244px;
+    width:182px;
+}
+#prework-study-guide{
+    height:300px;
+    width:261px;
+    
+}
+}
+
+@media only screen and (max-width: 380px) {
+    #section3{height:31em;}
+nav{font-size: 11px;}
+
+h2{font-size:1.2em;
+    text-align: center;}
+#KU {
+    height:160px ;
+    width:150px ;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 20px;
+}
+#from-the-heart {
+    height: 195px;
+    width: 134px;
+}
+#prework-study-guide{
+    height: 210px;
+    width: 183px;}
+
+ #profile-picture{
+    height:181px;
+    width: 150px;
+}
+#refactored {
+    height: 182px;
+}
+p{font-size:14px;}
+}
+
+@media only screen and (max-width: 300px) {
+    #section3{height:31em;}
+nav{font-size: 9px;}
+
+h2{font-size:1.2em;
+    text-align: center;}
+
+#from-the-heart {
+    height: 150px;
+    width: 116px;
+}
+#prework-study-guide{
+    height: 142px;
+    width: 160px;}
+
+ #profile-picture{
+    height:146px;
+    width: 112px;
+}
+#refactored {
+    height: 152px;
+    width:155px;
+}
+p{font-size:14px;}
 }
