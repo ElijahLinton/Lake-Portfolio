@@ -1,10 +1,14 @@
-*{display:flex;
- flex-direction: column;
+*{width:82% !important;
+margin:0;
+ padding:0 !important;
+margin-left: auto;
+ margin-right: auto;
+}
+
+.content{display:flex;
+ flex-flow: column;
  justify-content: space-between;
-  flex-shrink:1;
-    flex-grow:0;
- flex-basis:auto;
- flex-wrap:nowrap;
+ 
  }
  
 @font-face { 
@@ -20,8 +24,6 @@ header{
     height:80px;
     display:flex;
     align-items: center;
-    margin-left:auto;
-    margin-right:auto;
     justify-content:space-around;
    
 }
@@ -31,7 +33,7 @@ header{
 body{
 background-image:url("mypictures.jpg" );
 align-items: center;
-font-size: larger;
+font-size: 16px;
 
 }
 
@@ -40,8 +42,6 @@ h1,h3,a,p{font-family:Grace;}
 #section1{
     background-color: rgb(153, 193, 196);
     padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     width: 30.6em;
     height: 40em;
@@ -49,18 +49,6 @@ h1,h3,a,p{font-family:Grace;}
     margin: 104px;
     align-items: center;
     }
-    
-    #section2{
-        background-color:rgb(153, 193, 196);
-        padding:50px;
-        margin-left:auto;
-        margin-right:auto; 
-        text-align: center;
-        width:30.6em;
-        border-radius:50px;
-        height:40em;
-        align-items: center;
-        }
 
 #profile-picture{
     height:400px; 
@@ -68,15 +56,24 @@ h1,h3,a,p{font-family:Grace;}
     border-radius:15px 15px 0px 0px;
     margin-bottom: 20px;
     }
+
     #container{
-    padding:0px 0px;
-    background-color:rgb(253, 212, 136);
-    border-radius:15px;
+        padding:0px 0px 50px 0px;
+        background-color:rgb(253, 212, 136);
+        border-radius:15px;
+        width:370px;
     }
+    #section2{
+        background-color:rgb(153, 193, 196);
+        padding:50px;
+        text-align: center;
+        width:30.6em;
+        border-radius:50px;
+        height:40em;
+        align-items: center;
+        }
 
 
-    
-   
 
 #card2{height:400px;
     width:300px;
@@ -91,42 +88,41 @@ h1,h3,a,p{font-family:Grace;}
 
     #container2{padding:0px 0px 50px 0px;
         background-color:rgb(253, 212, 136);
-        border-radius:15px;}
+        border-radius:15px;
+        }
 
 #section3{ background-color:rgb(153, 193, 196);
     padding:50px;
-    margin-left:auto;
-    margin-right:auto; 
     text-align: center;
-    width:30.6em;
-    height:40em;
+    width:50.6em;
+    height:60em;
     border-radius:50px;
     margin-top:50px;
-    align-items: center;}
+    align-items: center;
+}
 
     #container3{padding:0px 0px 50px 0px;
         background-color:rgb(253, 212, 136);
         border-radius:15px;
-        width:600px;
+        height:15em;
         }
 
    
 
 #section4{ background-color:rgb(153, 193, 196);
     padding:50px;
-    margin-left:auto;
-    margin-right:auto; 
     text-align: center;
     width:30.6em;
-    height:40em;
+    height:45em;
     border-radius:50px;
     margin-top:50px;
-    align-items: center;}
+    }
 
 #container4{padding:0px 0px 50px 0px;
     background-color:rgb(253, 212, 136);
     border-radius:15px;
     width:370px;
+    align-items: center;
     }
 
 #KU{
@@ -139,11 +135,9 @@ h1,h3,a,p{font-family:Grace;}
         
 #section5{ background-color:rgb(153, 193, 196);
     padding:50px;
-    margin-left:auto;
-    margin-right:auto; 
     text-align: center;
     width:30.6em;
-    height:40em;
+    height:45em;
     border-radius:50px;
     margin-top:50px;
     align-items: center;}
@@ -151,7 +145,8 @@ h1,h3,a,p{font-family:Grace;}
 #container5{padding:0px 0px 50px 0px;
     background-color:rgb(253, 212, 136);
     border-radius:15px;
-    width:250px;}
+    width:250px;
+    }
 
 
 
@@ -167,3 +162,35 @@ footer{background-color:rgb(70, 133, 138);
     }
 
 html{scroll-behavior: smooth;}
+#from-the-heart{
+    
+    height: 500px;
+    object-fit: fill;}
+
+#refactored{
+    height: 400px;
+    object-fit: fill;
+}    
+
+@media only screen and (max-width: 841px) {
+    #section1{height:35em;}
+    #section2{height:35em;}
+    #section3{height:45em;}
+    #section4{height:35em;}
+    #section5{height:45em;}
+    #container{height:150px}
+    #container2{height:150px}
+    #container3{height:240px}
+    #container4{height:150px}
+    #container5{height:150px}
+    #profile-picture{height:200px;
+    }
+    #prework-study-guide{
+        height:300px;
+        
+    }
+    #KU{height:300px;}
+    p{font-size:13px;}
+    #refactored{height:300px}
+    #from-the-heart{height:350px;}
+}
