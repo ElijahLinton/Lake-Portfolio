@@ -194,6 +194,7 @@ header{
 
 
 #profile-picture{
+    border:2px solid;
     height: 224px;
     width: 197px;
     border-radius: 15px;
@@ -203,6 +204,7 @@ header{
 
 
 #prework-study-guide{
+    border:2px solid;
     height:300px; 
     width:300px;
     border-radius:15px ;
@@ -212,6 +214,7 @@ header{
 
 
 #refactored{
+    border:2px solid;
     height: 270px;
     width:200px;
     border-radius: 15px;
@@ -220,6 +223,7 @@ header{
 
 
 #KU{
+    border:2px solid;
     height:270px; 
     width:300px;
     border-radius:15px;
@@ -229,6 +233,7 @@ header{
 
 
 #from-the-heart{
+    border:2px solid;
     border-radius:15px;
     height: 225px;
     width:209px;
@@ -250,6 +255,8 @@ footer{
 
 
 #linkden{
+    border-radius: 15px;
+    border:1px solid;
     width:42px; 
     height:42px;
 }
