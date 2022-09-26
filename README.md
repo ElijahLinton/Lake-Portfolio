@@ -1,4 +1,4 @@
-# my-portfolio
+# Lake-portfolio
 
 ## Description
 This is my portfolio where I will consistently update my work ive completed and resume as I grow as a developer.This webpage is where my potential recruiters will look to to find details about me and my work and how good I am. At the time, there isnt too much work to show but in the future many more huge updates will be added on to this page.The webpage has a picture of lake michigan taken by me because it is a high quality image and compliments the wepages cool colors to cater towards a peaceful look.
